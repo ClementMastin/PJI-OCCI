@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="lib" path="lib/message_generation-0.3.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/rosjava-0.3.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/std_msgs-0.5.11.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry kind="src" path="src-gen"/>
+	<classpathentry kind="lib" path="/orchestration.connector/lib/org.occiware.mart.jetty-1.0-SNAPSHOT.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

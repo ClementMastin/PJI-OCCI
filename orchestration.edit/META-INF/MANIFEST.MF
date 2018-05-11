@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %pluginName
+Bundle-SymbolicName: orchestration.edit;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: .
+Bundle-Activator: orchestration.provider.OrchestrationEditPlugin$Implementation
+Bundle-Vendor: %providerName
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: orchestration.provider
+Require-Bundle: org.eclipse.core.runtime,
+ orchestration;visibility:=reexport,
+ org.eclipse.emf.edit;visibility:=reexport,
+ org.eclipse.cmf.occi.core;visibility:=reexport,
+ org.eclipse.cmf.occi.core.edit;visibility:=reexport
+Bundle-ActivationPolicy: lazy

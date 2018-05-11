@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ASCII"?>
+<occi:Extension xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:occi="http://schemas.ogf.org/occi/core/ecore" name="orchestration" scheme="http://occiware.org/orchestration#">
+  <import href="http://schemas.ogf.org/occi/core#/"/>
+  <kinds name="robot" scheme="http://occiware.org/orchestration#">
+    <actions name="parler" scheme="http://occiware.org/orchestration/robot/action#"/>
+    <parent href="http://schemas.ogf.org/occi/core#//@kinds[term='resource']"/>
+  </kinds>
+</occi:Extension>
