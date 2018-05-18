@@ -125,7 +125,7 @@ public class RobotConnector extends orchestration.impl.RobotImpl
 		LOGGER.debug("Action parler() called on " + this);
 		this.robot.parler();
 
-		// TODO: Implement how to parler this robot.
+		
 	}
 	// End of user code
 		

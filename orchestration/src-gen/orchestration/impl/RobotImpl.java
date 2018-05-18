@@ -14,6 +14,7 @@ package orchestration.impl;
 
 import java.lang.reflect.InvocationTargetException;
 
+import orchestration.App;
 import orchestration.OrchestrationPackage;
 import orchestration.Robot;
 
@@ -63,7 +64,8 @@ public class RobotImpl extends ResourceImpl implements Robot {
 	public void parler() {
 		// TODO: implement this method
 		// Ensure that you remove @generated or mark it @generated NOT
-		this.ros.parler();
+		//this.ros.parler();
+		App.parler();
 	}
 
 	/**
